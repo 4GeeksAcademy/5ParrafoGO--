@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs'); // Add fs (file system) module to read directory contents
 require('dotenv').config();  // Loads the environment variables from your .env file
 
-console.log('API Key:', process.env.OPENAI_AI_API_KEY);  // This should print the API key if loaded correctly
+console.log('API Key:', process.env.OPEN_AI_API_KEY);  // This should print the API key if loaded correctly
 
 // Function to print the current directory contents
 function printDirectoryContents() {
